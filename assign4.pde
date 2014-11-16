@@ -117,7 +117,7 @@ void drawScore() {
   noStroke();
   fill(95, 194, 226);
   textAlign(CENTER, CENTER);
-  textSize(23);
+  textSize(22);
   text("SCORE:"+point, width/2, 16);
 }
 
@@ -143,7 +143,7 @@ void alienMaker(int num, int numInRow) {
 
 void drawLife() {
   fill(230, 74, 96);
-  textSize(23);
+  textSize(22);
   text("LIFE:", 36, 455);
   /*---------Draw Ship Life---------*/
   for (int i=0; i<life; i++){
