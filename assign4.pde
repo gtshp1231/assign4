@@ -143,6 +143,7 @@ void alienMaker(int num, int numInRow) {
 
 void drawLife() {
   fill(230, 74, 96);
+  textSize(23);
   text("LIFE:", 36, 455);
   /*---------Draw Ship Life---------*/
   for (int i=0; i<life; i++){
