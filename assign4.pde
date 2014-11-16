@@ -117,7 +117,7 @@ void drawScore() {
   noStroke();
   fill(95, 194, 226);
   textAlign(CENTER, CENTER);
-  textSize(40);
+  textSize(23);
   text("SCORE:"+point, width/2, 16);
 }
 
